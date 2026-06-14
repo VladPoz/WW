@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'PoiretOne';
-  src: url("/WW/fonts/PoiretOne-Regular.ttf");
+  src: url("/fonts/PoiretOne-Regular.ttf");
 }
 
 @font-face {
   font-family: 'Unbounded';
-  src: url("/WW/fonts/Unbounded-SemiBold.ttf");
+  src: url("/fonts/Unbounded-SemiBold.ttf");
 }
 
 * {
@@ -98,8 +98,8 @@ body {
 }
 
 .slider-number.active {
-  font-weight: 900;
-  font-size: 56px;
+  font-weight: 600;
+  font-size: 54px;
   fill: #000;
   transform: translateY(8px) translateX(8px);
 }
@@ -149,7 +149,7 @@ body {
 
 .contents-text {
   width: 100%;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 600;
   letter-spacing: 0.02em;
   color: #000000;
@@ -158,7 +158,7 @@ body {
 }
 
 .contents-price {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 600;
   text-align: end;
   color: #000000;
@@ -168,7 +168,7 @@ body {
 }
 
 .contents-note {
-  font-size: 14px;
+  font-size: 13px;
   font-style: italic;
   font-weight: 600;
   color: #000000;
