@@ -33,7 +33,7 @@ function Slider({ dotRefs, textRefs, circleRef }) {
                     ref={circleRef}
                     cx={CX}
                     cy={CY}
-                    r={R}
+                    r={6}
                     fill="none"
                     stroke="black"
                     opacity="0.15"
