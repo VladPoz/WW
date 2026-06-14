@@ -1,0 +1,177 @@
+@font-face {
+  font-family: 'PoiretOne';
+  src: url("/WW/fonts/PoiretOne-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Unbounded';
+  src: url("/WW/fonts/Unbounded-SemiBold.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  font-family: PoiretOne, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+.App {
+  display: block;
+  width: 100%;
+}
+
+.logo-container {
+  position: fixed;
+  top: 5vh;
+  right: 45%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  height: 120px;
+  z-index: 10;
+  pointer-events: none;
+  transform: translateX(50%);
+}
+
+.logo-img {
+  height: 55%;
+  width: auto;
+  display: block;
+}
+
+
+.logo-text-wrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 20px;
+}
+
+.logo-text {
+  font-family: 'PoiretOne', sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #000;
+  white-space: nowrap;
+  transform: rotate(-90deg);
+  position: absolute;
+}
+
+.slider {
+  transform: translateX(-9vw);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 45%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  z-index: 5;
+}
+
+.slider svg {
+  width: 100%;
+  height: 100%;
+}
+
+.slider-number {
+  font-family: 'PoiretOne', sans-serif;
+  font-weight: normal;
+  font-size: 36px;
+  fill: #000;
+  transition: .5s;
+}
+
+.slider-number.active {
+  font-weight: 900;
+  font-size: 56px;
+  fill: #000;
+  transform: translateY(8px) translateX(8px);
+}
+
+.main {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.main .contents {
+  width: 55%;
+  margin-right: 5vw;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  transition: .1s;
+}
+
+.main .contents div {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.content-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 16px;
+  width: 100%;
+}
+
+.contents-title {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Unbounded', sans-serif;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.contents-text {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: #000000;
+  line-height: 1.4;
+  flex: 1;
+}
+
+.contents-price {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: end;
+  color: #000000;
+  letter-spacing: 0.05em;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.contents-note {
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 600;
+  color: #000000;
+  margin-top: 4px;
+  line-height: 1.4;
+}
