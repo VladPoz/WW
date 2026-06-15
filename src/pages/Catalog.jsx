@@ -1,14 +1,14 @@
-import Slider, { CX, CY, R, R_LABEL, TOTAL, STEP } from './Slider.jsx';
+import Slider, { CX, CY, R, R_LABEL, TOTAL, STEP } from '../components/Slider.jsx';
 
-import Logo from './Logo.jsx';
-import First from './contents/First.jsx';
-import Second from './contents/Second.jsx';
-import Third from './contents/Third.jsx';
-import Fourth from './contents/Fourth.jsx';
-import Fifth from './contents/Fifth.jsx';
-import Sixth from './contents/Sixth.jsx';
-import Seventh from './contents/Seventh.jsx';
-import Eighth from './contents/Eighth.jsx';
+import Logo from '../components/Logo.jsx';
+import First from '../components/contents/First.jsx';
+import Second from '../components/contents/Second.jsx';
+import Third from '../components/contents/Third.jsx';
+import Fourth from '../components/contents/Fourth.jsx';
+import Fifth from '../components/contents/Fifth.jsx';
+import Sixth from '../components/contents/Sixth.jsx';
+import Seventh from '../components/contents/Seventh.jsx';
+import Eighth from '../components/contents/Eighth.jsx';
 
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
