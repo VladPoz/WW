@@ -4,7 +4,7 @@ const Second = forwardRef((props, ref) => {
     return (
         <section className={'main'}>
             <div className="contents" ref={ref}>
-                <h3 className="contents-title">02. Без названия пока</h3>
+                <h3 className="contents-title">02. Дополнительное образование</h3>
                 <div>
                     <div className="content-item">
                         <span className="contents-text">Переподготовка с сертификатом для лиц, закончивших обучение до 2019 года (через партнеров)</span>
